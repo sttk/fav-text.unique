@@ -39,6 +39,7 @@ unique(); // => 'j9688crp1'
 </script>
 ```
 
+***NOTE:*** *On a browser, the string returned by this function is unique in only the window.*
 
 ## API
 
@@ -55,6 +56,8 @@ This function creates an unique string with following methods:
 ```
 new Date().getTime().toString(36) + <sequencial-number-in-application>.toString(36)
 ```
+
+***NOTE:*** *On a browser, the string returned by this function is unique in only the window.*
 
 #### Return:
 
