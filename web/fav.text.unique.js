@@ -13,7 +13,9 @@ function unique() {
 
 Object.defineProperty(unique, 'seqno', {
   set: function() {},
-  get: function() { return seqNo; },
+  get: function() {
+    return seqNo;
+  },
 });
 
 module.exports = unique;
