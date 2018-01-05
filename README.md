@@ -43,8 +43,6 @@ unique(); // => 'j9688crp1'
 
 ## API
 
-<a name="unique"></a>
-
 ### <u>unique() : string</u>
 
 Returns an unique string in the application.
@@ -109,7 +107,7 @@ This program is free software under [MIT][mit-url] License.
 See the file LICENSE in this distribution for more details.
 
 [repo-url]: https://github.com/sttk/fav-text.unique/
-[npm-img]: https://img.shields.io/badge/npm-v0.1.1-blue.svg
+[npm-img]: https://img.shields.io/badge/npm-v1.0.0-blue.svg
 [npm-url]: https://www.npmjs.com/package/@fav/text.unique
 [mit-img]: https://img.shields.io/badge/license-MIT-green.svg
 [mit-url]: https://opensource.org/licenses/MIT
