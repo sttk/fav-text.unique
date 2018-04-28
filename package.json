@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha test test/lib",
+    "test": "mocha test/unique-1.test test/unique-2.test test/unique-3.test test/lib",
     "coverage": "nyc --reporter=lcov --reporter=text-summary npm test",
     "coveralls": "nyc --reporter=text-lcov npm test | coveralls",
     "web:build": "npm run web:build-src && npm run web:build-test",
